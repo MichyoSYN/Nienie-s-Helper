@@ -82,9 +82,6 @@
   border-radius: 4rpx;
   overflow: hidden;
 }
-.kind-list-item:first-child {
-  margin-top: 0;
-}
 .kind-list-text{
   flex: 1;
 }

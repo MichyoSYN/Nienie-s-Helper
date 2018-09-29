@@ -1,2 +1,35 @@
 /* pages/kitchen/kitchen-clean.wxss */
 @import "../common/index.wxss";
+
+.kc-list-item {
+  display: flex;
+  margin: 20rpx 0;
+  padding: 8rpx 16rpx;
+  background-color: #FFFFFF;
+  border-radius: 4rpx;
+  overflow: hidden;
+}
+.kc-list-text{
+  flex: 1;
+}
+.kc-list-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+.kc-list-item-hd {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+
+  transition: opacity .3s;
+}
+.kc-list-item-hd-show {
+  opacity: .2;
+}
+.kc-list-item-bd {
+  height: 0;
+  overflow: hidden;
+}
+.kc-list-item-bd-show {
+  height: auto;
+}
