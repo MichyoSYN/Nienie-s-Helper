@@ -1,2 +1,18 @@
 <!--pages/kitchen/kitchen-clean.wxml-->
-<text>kitchen clean page</text>
+<view class="index">
+  <view class="index-bd">
+    <view class="kind-list">
+      <block wx:for-items="{{list}}" wx:key="{{item.id}}">
+        <view class="kind-list-item">
+          <view id="{{item.id}}">
+            <view class="flex-wrp" style="flex-direction:row;">
+              <view class="kind-list-text">{{item.name}}</view>
+              <view class="kind-list-text">{{item.count}}</view>
+              <view class="kind-list-text">{{item.unit}}</view>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

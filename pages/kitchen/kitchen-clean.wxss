@@ -1,1 +1,2 @@
 /* pages/kitchen/kitchen-clean.wxss */
+@import "../common/index.wxss";
