@@ -10,7 +10,7 @@ Page({
         id: "kitchen",
         name: "厨房用品",
         open: false,
-        pages: ['清洁','洗涤']
+        pages: ['kitchen-clean','洗涤']
       },
       {
         id: "bathroom",
@@ -46,65 +46,5 @@ Page({
     this.setData({
       list
     })
-  },
-
-  clickMe: function () {
-    this.setData({ msg: "Hello World" })
-  },
-
-  /**
-   * Lifecycle function--Called when page load
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page is initially rendered
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page show
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page hide
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * Lifecycle function--Called when page unload
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * Page event handler function--Called when user drop down
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * Called when page reach bottom
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * Called when user click on the top right corner to share
-   */
-  onShareAppMessage: function () {
-
   }
 })
